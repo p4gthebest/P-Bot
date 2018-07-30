@@ -43,7 +43,7 @@ client.on('guildMemberAdd', member => {
     let role = member.guild.roles.find('name', '- Member')
     member.addRole(role);
 
-    member.send("I Hope u enjoy our server <3")
+    member.send("I Hope u will enjoy our server <3")
 });
 
 client.on('guildMemberRemove', member => {
